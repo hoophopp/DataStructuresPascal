@@ -292,7 +292,7 @@ begin
     end;
 end;
 
-{⭐ 1. Allocate & Display a Dynamic Matrix
+{ 1. Allocate & Display a Dynamic Matrix
 
     Write procedures to:
 
@@ -354,7 +354,7 @@ begin
 end;
 
 
-{⭐ 2. Convert a Static Matrix → Dynamic Matrix
+{ 2. Convert a Static Matrix → Dynamic Matrix
 
     Given a static matrix A[1..n,1..m], write a procedure that:
 
@@ -387,7 +387,7 @@ begin
 
 end;
 
-{⭐ 3. Sum Two Dynamic Matrices
+{ 3. Sum Two Dynamic Matrices
 
 Write a function that takes two dynamic n×n matrices and returns a new dynamically allocated matrix containing their sum.
 
@@ -416,7 +416,7 @@ begin
 end;
 
 
-{⭐ 4. Transpose a Dynamic Matrix
+{ 4. Transpose a Dynamic Matrix
 
 Write a function:
 
@@ -447,7 +447,7 @@ begin
     Transpose := h;
 end;
 
-{⭐ 6. Resize a Dynamic Vector
+{ 6. Resize a Dynamic Vector
 
 Given a dynamic vector:
 
@@ -491,7 +491,7 @@ begin
 
 end;
 
-{⭐ 7. Insert & Delete From a Dynamic Vector
+{ 7. Insert & Delete From a Dynamic Vector
 
 Create two procedures:
 
@@ -550,7 +550,7 @@ begin
 end;
 
 
-{⭐ 8. Build a Dynamic Vector of Even Numbers
+{ 8. Build a Dynamic Vector of Even Numbers
 
 Write a function:
 
@@ -592,7 +592,7 @@ begin
 end;
 
 
-{⭐ 9. Dynamic String Search → Position Vector
+{ 9. Dynamic String Search → Position Vector
 
 Given two strings M1 and M2, create a dynamic vector containing positions where M2 appears in M1.
 
@@ -677,7 +677,7 @@ begin
 end;
 
 
-{⭐ 10. Freeing a Complete Dynamic Structure
+{ 10. Freeing a Complete Dynamic Structure
 
 Given a dynamic matrix and a dynamic vector, write:
 
@@ -707,4 +707,5 @@ begin
     V.n := 0;
     free(V.T);
     V.T := null;
+
 end;
